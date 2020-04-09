@@ -13,6 +13,42 @@
 		B11F1B2B242B53AF001FF7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11F1B2A242B53AF001FF7FA /* Assets.xcassets */; };
 		B11F1B2E242B53AF001FF7FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11F1B2D242B53AF001FF7FA /* Preview Assets.xcassets */; };
 		B11F1B31242B53AF001FF7FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11F1B2F242B53AF001FF7FA /* LaunchScreen.storyboard */; };
+		B1695CD2243D9D98005CC64C /* BeersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CD1243D9D98005CC64C /* BeersListView.swift */; };
+		B1695CD4243D9EEA005CC64C /* Extensions2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CD3243D9EEA005CC64C /* Extensions2.swift */; };
+		B1695CE9243DAE2C005CC64C /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CD6243DAE2C005CC64C /* APIHelper.swift */; };
+		B1695CEA243DAE2C005CC64C /* URLSessionImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CD7243DAE2C005CC64C /* URLSessionImplementations.swift */; };
+		B1695CEB243DAE2C005CC64C /* BeersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CD9243DAE2C005CC64C /* BeersAPI.swift */; };
+		B1695CEC243DAE2C005CC64C /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CDA243DAE2C005CC64C /* CodableHelper.swift */; };
+		B1695CED243DAE2C005CC64C /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CDB243DAE2C005CC64C /* APIs.swift */; };
+		B1695CEE243DAE2C005CC64C /* OpenISO8601DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CDC243DAE2C005CC64C /* OpenISO8601DateFormatter.swift */; };
+		B1695CF4243DAE2C005CC64C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CE3243DAE2C005CC64C /* Extensions.swift */; };
+		B1695CF5243DAE2C005CC64C /* JSONDataEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CE4243DAE2C005CC64C /* JSONDataEncoding.swift */; };
+		B1695CF6243DAE2C005CC64C /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CE5243DAE2C005CC64C /* JSONEncodingHelper.swift */; };
+		B1695CF7243DAE2C005CC64C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CE6243DAE2C005CC64C /* Models.swift */; };
+		B1695CF8243DAE2C005CC64C /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CE7243DAE2C005CC64C /* SynchronizedDictionary.swift */; };
+		B1695CF9243DAE2C005CC64C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CE8243DAE2C005CC64C /* Configuration.swift */; };
+		B1695CFD243DC1FD005CC64C /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CFC243DC1FD005CC64C /* AsyncImage.swift */; };
+		B1695CFF243DC2CF005CC64C /* BeerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695CFE243DC2CF005CC64C /* BeerRowView.swift */; };
+		B1695D01243DC31A005CC64C /* BeerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D00243DC31A005CC64C /* BeerDetailView.swift */; };
+		B1695D05243DD517005CC64C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D04243DD517005CC64C /* NavigationController.swift */; };
+		B1695D07243DD56E005CC64C /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D06243DD56E005CC64C /* PushButton.swift */; };
+		B1695D09243DD58B005CC64C /* PopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D08243DD58B005CC64C /* PopButton.swift */; };
+		B1695D0B243DD5DB005CC64C /* NavigationControllerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D0A243DD5DB005CC64C /* NavigationControllerVM.swift */; };
+		B1695D0D243DDB80005CC64C /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D0C243DDB80005CC64C /* IngredientsView.swift */; };
+		B1695D0F243DE2B1005CC64C /* MaltRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D0E243DE2B1005CC64C /* MaltRowView.swift */; };
+		B1695D11243DE61B005CC64C /* IngredientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D10243DE61B005CC64C /* IngredientsListView.swift */; };
+		B1695D13243DE7F3005CC64C /* HopsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D12243DE7F3005CC64C /* HopsRowView.swift */; };
+		B1695D23243DF28E005CC64C /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D22243DF28E005CC64C /* JournalListView.swift */; };
+		B1695D27243DF3B8005CC64C /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D26243DF3B8005CC64C /* SearchAPI.swift */; };
+		B1695D2B243DF54C005CC64C /* JournalItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D29243DF54C005CC64C /* JournalItem.swift */; };
+		B1695D2C243DF54C005CC64C /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D2A243DF54C005CC64C /* Journal.swift */; };
+		B1695D3C243DF5FE005CC64C /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D37243DF5FD005CC64C /* Ingredients.swift */; };
+		B1695D3D243DF5FE005CC64C /* MaltIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D38243DF5FD005CC64C /* MaltIngredient.swift */; };
+		B1695D3E243DF5FE005CC64C /* HopsIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D39243DF5FD005CC64C /* HopsIngredient.swift */; };
+		B1695D3F243DF5FE005CC64C /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D3A243DF5FD005CC64C /* Amount.swift */; };
+		B1695D40243DF5FE005CC64C /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D3B243DF5FD005CC64C /* Beer.swift */; };
+		B1695D42243DF68C005CC64C /* JournalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D41243DF68C005CC64C /* JournalRowView.swift */; };
+		B1695D4B243EFEED005CC64C /* JournalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695D4A243EFEED005CC64C /* JournalDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +60,42 @@
 		B11F1B2D242B53AF001FF7FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B11F1B30242B53AF001FF7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B11F1B32242B53AF001FF7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1695CD1243D9D98005CC64C /* BeersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersListView.swift; sourceTree = "<group>"; };
+		B1695CD3243D9EEA005CC64C /* Extensions2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions2.swift; sourceTree = "<group>"; };
+		B1695CD6243DAE2C005CC64C /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		B1695CD7243DAE2C005CC64C /* URLSessionImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionImplementations.swift; sourceTree = "<group>"; };
+		B1695CD9243DAE2C005CC64C /* BeersAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeersAPI.swift; sourceTree = "<group>"; };
+		B1695CDA243DAE2C005CC64C /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		B1695CDB243DAE2C005CC64C /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		B1695CDC243DAE2C005CC64C /* OpenISO8601DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenISO8601DateFormatter.swift; sourceTree = "<group>"; };
+		B1695CE3243DAE2C005CC64C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B1695CE4243DAE2C005CC64C /* JSONDataEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDataEncoding.swift; sourceTree = "<group>"; };
+		B1695CE5243DAE2C005CC64C /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		B1695CE6243DAE2C005CC64C /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B1695CE7243DAE2C005CC64C /* SynchronizedDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronizedDictionary.swift; sourceTree = "<group>"; };
+		B1695CE8243DAE2C005CC64C /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		B1695CFC243DC1FD005CC64C /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		B1695CFE243DC2CF005CC64C /* BeerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerRowView.swift; sourceTree = "<group>"; };
+		B1695D00243DC31A005CC64C /* BeerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailView.swift; sourceTree = "<group>"; };
+		B1695D04243DD517005CC64C /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		B1695D06243DD56E005CC64C /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
+		B1695D08243DD58B005CC64C /* PopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopButton.swift; sourceTree = "<group>"; };
+		B1695D0A243DD5DB005CC64C /* NavigationControllerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerVM.swift; sourceTree = "<group>"; };
+		B1695D0C243DDB80005CC64C /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
+		B1695D0E243DE2B1005CC64C /* MaltRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaltRowView.swift; sourceTree = "<group>"; };
+		B1695D10243DE61B005CC64C /* IngredientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsListView.swift; sourceTree = "<group>"; };
+		B1695D12243DE7F3005CC64C /* HopsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopsRowView.swift; sourceTree = "<group>"; };
+		B1695D22243DF28E005CC64C /* JournalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
+		B1695D26243DF3B8005CC64C /* SearchAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
+		B1695D29243DF54C005CC64C /* JournalItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalItem.swift; sourceTree = "<group>"; };
+		B1695D2A243DF54C005CC64C /* Journal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		B1695D37243DF5FD005CC64C /* Ingredients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
+		B1695D38243DF5FD005CC64C /* MaltIngredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaltIngredient.swift; sourceTree = "<group>"; };
+		B1695D39243DF5FD005CC64C /* HopsIngredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HopsIngredient.swift; sourceTree = "<group>"; };
+		B1695D3A243DF5FD005CC64C /* Amount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
+		B1695D3B243DF5FD005CC64C /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		B1695D41243DF68C005CC64C /* JournalRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRowView.swift; sourceTree = "<group>"; };
+		B1695D4A243EFEED005CC64C /* JournalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +128,12 @@
 		B11F1B23242B53AB001FF7FA /* Paging */ = {
 			isa = PBXGroup;
 			children = (
+				B1695D18243DEA68005CC64C /* VM */,
+				B1695CD5243DAE2C005CC64C /* BeersOpenAPIs */,
+				B1695CD3243D9EEA005CC64C /* Extensions2.swift */,
+				B1695CD0243D9D6A005CC64C /* View */,
 				B11F1B24242B53AB001FF7FA /* AppDelegate.swift */,
 				B11F1B26242B53AB001FF7FA /* SceneDelegate.swift */,
-				B11F1B28242B53AB001FF7FA /* ContentView.swift */,
 				B11F1B2A242B53AF001FF7FA /* Assets.xcassets */,
 				B11F1B2F242B53AF001FF7FA /* LaunchScreen.storyboard */,
 				B11F1B32242B53AF001FF7FA /* Info.plist */,
@@ -73,6 +148,143 @@
 				B11F1B2D242B53AF001FF7FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1695CD0243D9D6A005CC64C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1695D1A243DEB0F005CC64C /* Chronicling America */,
+				B1695D17243DEA55005CC64C /* Navigation */,
+				B1695D14243DEA2A005CC64C /* Beers */,
+				B11F1B28242B53AB001FF7FA /* ContentView.swift */,
+				B1695CFC243DC1FD005CC64C /* AsyncImage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1695CD5243DAE2C005CC64C /* BeersOpenAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				B1695D28243DF54C005CC64C /* Models */,
+				B1695CD6243DAE2C005CC64C /* APIHelper.swift */,
+				B1695CD7243DAE2C005CC64C /* URLSessionImplementations.swift */,
+				B1695CD8243DAE2C005CC64C /* APIs */,
+				B1695CDA243DAE2C005CC64C /* CodableHelper.swift */,
+				B1695CDB243DAE2C005CC64C /* APIs.swift */,
+				B1695CDC243DAE2C005CC64C /* OpenISO8601DateFormatter.swift */,
+				B1695CE3243DAE2C005CC64C /* Extensions.swift */,
+				B1695CE4243DAE2C005CC64C /* JSONDataEncoding.swift */,
+				B1695CE5243DAE2C005CC64C /* JSONEncodingHelper.swift */,
+				B1695CE6243DAE2C005CC64C /* Models.swift */,
+				B1695CE7243DAE2C005CC64C /* SynchronizedDictionary.swift */,
+				B1695CE8243DAE2C005CC64C /* Configuration.swift */,
+			);
+			path = BeersOpenAPIs;
+			sourceTree = "<group>";
+		};
+		B1695CD8243DAE2C005CC64C /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				B1695D26243DF3B8005CC64C /* SearchAPI.swift */,
+				B1695CD9243DAE2C005CC64C /* BeersAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		B1695D14243DEA2A005CC64C /* Beers */ = {
+			isa = PBXGroup;
+			children = (
+				B1695D19243DEA73005CC64C /* Ingredients */,
+				B1695D16243DEA47005CC64C /* Detail */,
+				B1695D15243DEA3A005CC64C /* List */,
+			);
+			path = Beers;
+			sourceTree = "<group>";
+		};
+		B1695D15243DEA3A005CC64C /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B1695CFE243DC2CF005CC64C /* BeerRowView.swift */,
+				B1695CD1243D9D98005CC64C /* BeersListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		B1695D16243DEA47005CC64C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				B1695D00243DC31A005CC64C /* BeerDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		B1695D17243DEA55005CC64C /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B1695D04243DD517005CC64C /* NavigationController.swift */,
+				B1695D06243DD56E005CC64C /* PushButton.swift */,
+				B1695D08243DD58B005CC64C /* PopButton.swift */,
+				B1695D41243DF68C005CC64C /* JournalRowView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		B1695D18243DEA68005CC64C /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				B1695D0A243DD5DB005CC64C /* NavigationControllerVM.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		B1695D19243DEA73005CC64C /* Ingredients */ = {
+			isa = PBXGroup;
+			children = (
+				B1695D0C243DDB80005CC64C /* IngredientsView.swift */,
+				B1695D0E243DE2B1005CC64C /* MaltRowView.swift */,
+				B1695D10243DE61B005CC64C /* IngredientsListView.swift */,
+				B1695D12243DE7F3005CC64C /* HopsRowView.swift */,
+			);
+			path = Ingredients;
+			sourceTree = "<group>";
+		};
+		B1695D1A243DEB0F005CC64C /* Chronicling America */ = {
+			isa = PBXGroup;
+			children = (
+				B1695D49243EFED7005CC64C /* Detail */,
+				B1695D21243DF272005CC64C /* List */,
+			);
+			path = "Chronicling America";
+			sourceTree = "<group>";
+		};
+		B1695D21243DF272005CC64C /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B1695D22243DF28E005CC64C /* JournalListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		B1695D28243DF54C005CC64C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1695D3A243DF5FD005CC64C /* Amount.swift */,
+				B1695D3B243DF5FD005CC64C /* Beer.swift */,
+				B1695D39243DF5FD005CC64C /* HopsIngredient.swift */,
+				B1695D37243DF5FD005CC64C /* Ingredients.swift */,
+				B1695D38243DF5FD005CC64C /* MaltIngredient.swift */,
+				B1695D29243DF54C005CC64C /* JournalItem.swift */,
+				B1695D2A243DF54C005CC64C /* Journal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1695D49243EFED7005CC64C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				B1695D4A243EFEED005CC64C /* JournalDetailView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +358,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1695D2B243DF54C005CC64C /* JournalItem.swift in Sources */,
+				B1695CEA243DAE2C005CC64C /* URLSessionImplementations.swift in Sources */,
+				B1695CFD243DC1FD005CC64C /* AsyncImage.swift in Sources */,
+				B1695D42243DF68C005CC64C /* JournalRowView.swift in Sources */,
+				B1695D2C243DF54C005CC64C /* Journal.swift in Sources */,
+				B1695D13243DE7F3005CC64C /* HopsRowView.swift in Sources */,
+				B1695D0D243DDB80005CC64C /* IngredientsView.swift in Sources */,
+				B1695D09243DD58B005CC64C /* PopButton.swift in Sources */,
+				B1695CE9243DAE2C005CC64C /* APIHelper.swift in Sources */,
+				B1695D3E243DF5FE005CC64C /* HopsIngredient.swift in Sources */,
+				B1695D27243DF3B8005CC64C /* SearchAPI.swift in Sources */,
+				B1695D07243DD56E005CC64C /* PushButton.swift in Sources */,
+				B1695D3F243DF5FE005CC64C /* Amount.swift in Sources */,
 				B11F1B25242B53AB001FF7FA /* AppDelegate.swift in Sources */,
+				B1695CD2243D9D98005CC64C /* BeersListView.swift in Sources */,
+				B1695CEB243DAE2C005CC64C /* BeersAPI.swift in Sources */,
+				B1695D0F243DE2B1005CC64C /* MaltRowView.swift in Sources */,
+				B1695D0B243DD5DB005CC64C /* NavigationControllerVM.swift in Sources */,
+				B1695D01243DC31A005CC64C /* BeerDetailView.swift in Sources */,
+				B1695CF8243DAE2C005CC64C /* SynchronizedDictionary.swift in Sources */,
+				B1695D05243DD517005CC64C /* NavigationController.swift in Sources */,
+				B1695CF9243DAE2C005CC64C /* Configuration.swift in Sources */,
+				B1695D3C243DF5FE005CC64C /* Ingredients.swift in Sources */,
+				B1695CEE243DAE2C005CC64C /* OpenISO8601DateFormatter.swift in Sources */,
 				B11F1B27242B53AB001FF7FA /* SceneDelegate.swift in Sources */,
 				B11F1B29242B53AB001FF7FA /* ContentView.swift in Sources */,
+				B1695CEC243DAE2C005CC64C /* CodableHelper.swift in Sources */,
+				B1695CED243DAE2C005CC64C /* APIs.swift in Sources */,
+				B1695CF4243DAE2C005CC64C /* Extensions.swift in Sources */,
+				B1695D3D243DF5FE005CC64C /* MaltIngredient.swift in Sources */,
+				B1695CD4243D9EEA005CC64C /* Extensions2.swift in Sources */,
+				B1695D11243DE61B005CC64C /* IngredientsListView.swift in Sources */,
+				B1695CF6243DAE2C005CC64C /* JSONEncodingHelper.swift in Sources */,
+				B1695CF5243DAE2C005CC64C /* JSONDataEncoding.swift in Sources */,
+				B1695CFF243DC2CF005CC64C /* BeerRowView.swift in Sources */,
+				B1695D23243DF28E005CC64C /* JournalListView.swift in Sources */,
+				B1695D40243DF5FE005CC64C /* Beer.swift in Sources */,
+				B1695CF7243DAE2C005CC64C /* Models.swift in Sources */,
+				B1695D4B243EFEED005CC64C /* JournalDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
